@@ -30,7 +30,7 @@
     <ClCompile Include="Display.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConsoleDIsplay.cpp">
+    <ClCompile Include="ConsoleDisplay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,7 +47,7 @@
     <ClInclude Include="Display.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConsoleDIsplay.h">
+    <ClInclude Include="ConsoleDisplay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

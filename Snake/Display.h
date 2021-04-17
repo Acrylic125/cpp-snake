@@ -9,7 +9,7 @@ public:
 
 	DisplayDimension(int width, int height) : 
 		width(width), height(height) {}
-
+	
 	void SetWidth(int width);
 
 	void SetHeight(int height);
@@ -30,10 +30,13 @@ private:
 
 public:
 	Display() : 
-		dimension{} {}
+		dimension({}) {}
 
 	Display(int width, int height) :
-		dimension{width, height} {}
+		dimension({width, height}) {}
+
+	Display(DisplayDimension dimension) :
+		dimension(dimension) {}
 
 	virtual void SetDimension(DisplayDimension dimensions) = 0;
 
