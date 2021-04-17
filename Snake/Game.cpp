@@ -9,6 +9,10 @@ int Game::getDefaultDisplayHeight() {
 	return this->defaultDisplayHeight;
 }
 
+int Game::getTotalScreenSize() {
+	return this->defaultDisplayHeight * this->defaultDisplayWidth;
+}
+
 void Game::start() {
 	if (this->started)
 		return;

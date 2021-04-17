@@ -5,7 +5,7 @@ class SnakeGame : public Game
 {
 
 public:
-	SnakeGame() : Game{450, 625} {}
+	SnakeGame() : Game{30, 30} {}
 
 	void run() override;
 

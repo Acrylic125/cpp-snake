@@ -21,5 +21,7 @@ public:
 	int getDefaultDisplayWidth();
 
 	int getDefaultDisplayHeight();
+
+	int getTotalScreenSize();
 };
 
