@@ -17,7 +17,6 @@ void SnakeGame::onStart() {
 	DWORD dwBytesWritten = 0;
 
 	display[getTotalScreenSize() - 1] = '\0';
-	for (int i = 0;)
 	for (int i = 0; i < getTotalScreenSize() - 1; i++) {
 		display[i] = 'A';
 	}
