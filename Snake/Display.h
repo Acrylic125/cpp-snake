@@ -25,6 +25,6 @@ private:
 public:
 	virtual void SetDimension(DisplayDimension dimensions) = 0;
 
-	DisplayDimension GetDimension();
+	DisplayDimension* GetDimension();
 };
 
