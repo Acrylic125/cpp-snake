@@ -1,8 +1,8 @@
 #include "Utils.h"
 
-namespace utils{
+namespace utils {
 	template <class T>
-	int sizeOfArray(T & arr) {
+	int sizeOfArray(T* arr) {
 		return sizeof(arr) / sizeof(arr[0]);
 	}
 

@@ -5,7 +5,7 @@
 class ConsoleDisplay : public Display {
 private:
 	wchar_t* display = nullptr;
-	const HANDLE hConsole = CreateConsoleScreenBuffer(GENERIC_READ | GENERIC_WRITE, 0, NULL, CONSOLE_TEXTMODE_BUFFER, NULL);
+	HANDLE hConsole = CreateConsoleScreenBuffer(GENERIC_READ | GENERIC_WRITE, 0, NULL, CONSOLE_TEXTMODE_BUFFER, NULL);
 
 public:
 	ConsoleDisplay() : 
@@ -22,6 +22,5 @@ public:
 	}
 
 	void SetDimension(DisplayDimension dimension) override;
-
 };
 

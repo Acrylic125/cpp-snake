@@ -6,7 +6,7 @@ using namespace std;
 namespace utils {
 
 	template <class T> 
-	int sizeOfArray(T& arr);
+	int sizeOfArray(T* arr);
 
 	void test();
 
